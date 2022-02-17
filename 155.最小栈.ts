@@ -4,36 +4,34 @@
  * [155] 最小栈
  */
 
-import { timeStamp } from "console"
-
 // @lc code=start
 class MinStack {
-    stack: number[]
-    
-    constructor() {
-        this.stack = []
-    }
+  stack: number[];
 
-    push(x: number): void {
-        // this.stack.push(x)
-        this.stack[this.stack.length] = x
-    }
+  constructor() {
+    this.stack = [];
+  }
 
-    pop(): void {
-        this.stack.pop()
-    }
+  push(x: number): void {
+    // this.stack.push(x)
+    this.stack[this.stack.length] = x;
+  }
 
-    top(): number {
-        return this.stack[this.stack.length-1]
-    }
+  pop(): void {
+    this.stack.pop();
+  }
 
-    getMin(): number {
-        let min = this.stack[0]
-        this.stack.forEach(v=>{
-            if(min>v) min = v
-        })
-        return min
-    }
+  top(): number {
+    return this.stack[this.stack.length - 1];
+  }
+
+  getMin(): number {
+    let min = this.stack[0];
+    this.stack.forEach((v) => {
+      if (min > v) min = v;
+    });
+    return min;
+  }
 }
 
 /**
@@ -45,4 +43,3 @@ class MinStack {
  * var param_4 = obj.getMin()
  */
 // @lc code=end
-
