@@ -26,3 +26,21 @@ export function isPalindrome(s: string): boolean {
   }
   return true;
 }
+
+export function isPalindrome2(s: string): boolean {
+  let arr = s.match(/[a-z]|[A-Z]|\d/g);
+  if (!arr) return false;
+  arr = [...arr].map((v) => v.toLowerCase());
+
+  let start = 0;
+  let end = arr.length - 1;
+
+  while (!(start > end)) {
+    if (arr[start] !== arr[end]) {
+      return false;
+    }
+    start++;
+    end--;
+  }
+  return true;
+}
