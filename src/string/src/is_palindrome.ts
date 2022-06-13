@@ -1,6 +1,6 @@
 // 判断回文字符串
 
-export function judgePalindromeString(s: string): boolean {
+export function is_palindrome(s: string): boolean {
   const formatStr = formatString(s);
   const reverseStr = formatStr.split("").reverse().join("");
 
@@ -8,5 +8,5 @@ export function judgePalindromeString(s: string): boolean {
 }
 
 function formatString(s: string) {
-  return s.replace(/\s|/g, "").toLowerCase();
+  return s.replace(/\W|_/g, "").toLowerCase();
 }
