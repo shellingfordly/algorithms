@@ -5,7 +5,10 @@ export function wordBreak(s: string, wordDict: string[]): boolean {
 
   const dfs = (startIndex: number): boolean => {
     if (startIndex === length) return true;
-    if (history[startIndex] !== undefined) return history[startIndex];
+    if (history[startIndex] !== undefined) {
+      console.log("history", s, startIndex, history);
+      return history[startIndex];
+    }
     for (let i = startIndex + 1; i <= length; i++) {
       const prefix = s.slice(startIndex, i);
       if (dict.has(prefix) && dfs(i)) {

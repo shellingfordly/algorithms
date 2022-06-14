@@ -62,3 +62,42 @@ console.log("result ===>", partition("aab"));
 如果是就在此进入 dfs，此时 start = s.length 就会添加第二种情况；若不是，跑完循环第一次调用的 dfs 结束，pop 出最后一个值。此时 `start = 0; i = 1`，回到第一步，循环开始去切两个、三个的字符串并判断是否为回文。
 
 ![partition](https://user-images.githubusercontent.com/39196952/159428212-e2d29ef3-e8d0-42e9-9108-6150d79ecda2.png)
+
+
+
+## 139.单词拆分
+
+
+### dfs
+
+深度优先搜索，当拆分的前缀字符串在字典中存在时，从i之后的字符串再去拆分查找，如果后面的字符串拆分都能查询，则返回true；如果后面的单词拆分不能找到对应的，i++，前缀单词增加一个字符，继续去查后面的字符串，直到`startIndex=s.length`。
+
+优化重复查找，声明history变量存在某个位置(i)的字符串是否存在，从history查询到i之前的前缀字符串已经存在/不存在时，就可以直接返回
+
+
+```ts
+export function wordBreak(s: string, wordDict: string[]): boolean {
+  const length = s.length;
+  const dict = new Set(wordDict);
+  const history: boolean[] = Array.from({ length });
+
+  const dfs = (startIndex: number): boolean => {
+    if (startIndex === length) return true;
+    if (history[startIndex] !== undefined) return history[startIndex];
+    for (let i = startIndex + 1; i <= length; i++) {
+      const prefix = s.slice(startIndex, i);
+      if (dict.has(prefix) && dfs(i)) {
+        history[i] = true;
+        return true;
+      }
+    }
+    history[startIndex] = false;
+    return false;
+  };
+
+  return dfs(0);
+}
+
+
+```
+
