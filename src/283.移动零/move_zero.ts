@@ -55,3 +55,16 @@ export var moveZeroes3 = function (nums: number[]) {
     }
   }
 };
+
+export function moveZeroes4(nums: number[]): void {
+  let index = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === 0) {
+      index++;
+    } else if (index > 0) {
+      nums[i - index] = nums[i];
+      nums[i] = 0;
+    }
+  }
+}

@@ -72,3 +72,40 @@ export var moveZeroes3 = function (nums: number[]) {
   }
 };
 ```
+
+4. 指针 index 指向 0 坐标，当 num[i] = 0 时加 1，遇到非 0 时如果 index > 0，则将 nums[i-index] 和 nums[i]交换，i-index 位置为第一次出现 0 的坐标。
+
+> 此作法优秀在交换时不需要生命新的变量，直接略过非 0 数，当遇到 0 时，才做交换
+
+```ts
+export function moveZeroes4(nums: number[]): void {
+  let index = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === 0) {
+      index++;
+    } else if (index > 0) {
+      nums[i - index] = nums[i];
+      nums[i] = 0;
+    }
+  }
+}
+```
+
+5. 与解 4 差不多的道理，当 nums 非 0 时 index + 1，如果 i 与 index 不等则交换，此时 index 停留在第一次出现 0 的坐标
+
+```ts
+export function moveZeroes5(nums: number[]): void {
+  let index = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] != 0) {
+      if (i != index) {
+        nums[index] = nums[i];
+        nums[i] = 0;
+      }
+      index++;
+    }
+  }
+}
+```
