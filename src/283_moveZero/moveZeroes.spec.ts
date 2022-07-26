@@ -4,7 +4,7 @@ import {
   moveZeroes2,
   moveZeroes3,
   moveZeroes4,
-} from "./move_zero";
+} from "./moveZeroes";
 
 describe("move zero", () => {
   it("moveZeroes", () => {

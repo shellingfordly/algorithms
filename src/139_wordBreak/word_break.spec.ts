@@ -1,4 +1,4 @@
-import { wordBreak } from "../src/word_break";
+import { wordBreak } from "./word_break";
 
 describe("wordBreak", () => {
   it("1", () => {

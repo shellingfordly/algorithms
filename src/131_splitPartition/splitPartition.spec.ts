@@ -1,4 +1,4 @@
-import { partition } from "../src/split_palindrome_string";
+import { partition } from "./splitPartition";
 
 describe("partition", () => {
   it("", () => {

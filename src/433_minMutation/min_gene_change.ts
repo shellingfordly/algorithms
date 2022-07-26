@@ -78,7 +78,7 @@ export function minMutation(start: string, end: string, bank: string[]) {
       if (curr === endIndex) {
         return step;
       }
-      for (const next of adj[curr]) {
+      for (const next of adj[curr!]) {
         if (visited[next]) {
           continue;
         }
@@ -91,7 +91,11 @@ export function minMutation(start: string, end: string, bank: string[]) {
   return -1;
 }
 
-function minMutation1(start: string, end: string, bank: string[]): number {
+export function minMutation1(
+  start: string,
+  end: string,
+  bank: string[]
+): number {
   let count = 0;
   const bankMap: Record<string, boolean> = {};
   bank.forEach((v) => (bankMap[v] = true));

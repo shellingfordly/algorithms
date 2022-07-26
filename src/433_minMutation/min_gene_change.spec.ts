@@ -1,4 +1,4 @@
-import { minMutation } from "../src/min_gene_change";
+import { minMutation } from "./min_gene_change";
 
 describe("minMutation", () => {
   it("should", () => {
