@@ -1,4 +1,4 @@
-# 算法练习
+# leetcode
 
 - [1.两数之和](https://github.com/shellingfordly/algorithms/tree/master/src/1_twoSum)
 
