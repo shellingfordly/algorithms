@@ -56,12 +56,9 @@ export function twoSum(nums: number[], target: number): number[] {
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
 
-    const d = hash[num];
-    if (hash[num] !== undefined) {
-      // 当前数是否存在，存在直接返回下标
-      return [d, i];
+    if (num in hash) {
+      return [hash[num], i];
     } else {
-      // 不存在，保存差值和下标
       hash[target - num] = i;
     }
   }

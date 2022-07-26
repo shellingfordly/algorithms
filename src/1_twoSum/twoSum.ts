@@ -40,13 +40,23 @@ export function twoSum(nums: number[], target: number): number[] {
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
 
-    const d = hash[num];
-    if (hash[num] !== undefined) {
-      return [d, i];
+    if (num in hash) {
+      return [hash[num], i];
     } else {
       hash[target - num] = i;
     }
   }
 
+  return [];
+}
+
+export function twoSum1(nums: number[], target: number): number[] {
+  const obj: any = {};
+  for (let index = 0; index < nums.length; index++) {
+    const item = nums[index];
+    if (item in obj) {
+      return [obj[item], index];
+    } else obj[target - item] = index;
+  }
   return [];
 }
