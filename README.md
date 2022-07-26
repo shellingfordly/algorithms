@@ -2,6 +2,8 @@
 
 - [1.两数之和](https://github.com/shellingfordly/algorithms/tree/master/src/1_twoSum)
 
+- [2.两数相加](https://github.com/shellingfordly/algorithms/tree/master/src/2_addTwoNumbers)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
