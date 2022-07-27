@@ -1,4 +1,4 @@
-# leetcode
+# leetcode 算法练习
 
 - [1.两数之和](https://github.com/shellingfordly/algorithms/tree/master/src/1_twoSum)
 
@@ -7,6 +7,8 @@
 - [3.无重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/src/3_lengthOfLongestSubstring)
 
 - [4. 寻找两个正序数组的中位数](https://github.com/shellingfordly/algorithms/tree/master/src/4_findMedianSortedArrays)
+
+- [5. 最长回文子串](https://github.com/shellingfordly/algorithms/tree/master/src/5_longestPalindrome)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
