@@ -158,3 +158,45 @@ export function longestPalindrome(s: string): string {
 使用中心扩散的方式就快了很多，即使是优化过后的暴力求解，也拉开了很大的差距
 
 ![](2022-07-27-17-24-17.png)
+
+---
+
+### 动态规划
+
+其实我感觉动态规划有点像暴力求解，只是增加了一个二维数组去保存状态，减少暴力求解中 isPalindrome 对字符串回文的判断所做的循环；
+
+也就是说暴力求解可以说是三层循环，动态规划是两层循环，而中心扩散是一层循环；所以对于这一题来说，中心扩散才是最优解。
+
+#### 分析
+
+`dp[l][r]`表示下标 l 到 r 的子串，如果子串是回文，那么 `dp[l][r] = true`；因此，以后的回文判断只需要判断 `s[l]` 是否等于 `s[r]` 以及 `dp[l+1][r-1]` 是否为 true 即可。
+
+```ts
+export function longestPalindrome2(s: string): string {
+  const strLen = s.length;
+  if (s == null || strLen < 2) {
+    return s;
+  }
+  let maxStart = 0; //最长回文串的起点
+  let maxEnd = 0; //最长回文串的终点
+  let maxLen = 1; //最长回文串的长度
+
+  const dp: boolean[][] = [];
+
+  for (let r = 1; r < strLen; r++) {
+    for (let l = 0; l < r; l++) {
+      dp[l] = [];
+      // 相等且长度小于2的为回文， 如 a , aa
+      if (s.charAt(l) == s.charAt(r) && (r - l <= 2 || dp[l + 1][r - 1])) {
+        dp[l][r] = true;
+        if (r - l + 1 > maxLen) {
+          maxLen = r - l + 1;
+          maxStart = l;
+          maxEnd = r;
+        }
+      }
+    }
+  }
+  return s.substring(maxStart, maxEnd + 1);
+}
+```
