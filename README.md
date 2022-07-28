@@ -12,6 +12,8 @@
 
 - [6. Z 字形变换](https://github.com/shellingfordly/algorithms/tree/master/src/6_convert)
 
+- [7. 整数反转](https://github.com/shellingfordly/algorithms/tree/master/src/7_reverse)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
