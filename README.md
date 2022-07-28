@@ -10,6 +10,8 @@
 
 - [5. 最长回文子串](https://github.com/shellingfordly/algorithms/tree/master/src/5_longestPalindrome)
 
+- [6. Z 字形变换](https://github.com/shellingfordly/algorithms/tree/master/src/6_convert)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
