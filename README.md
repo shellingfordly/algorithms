@@ -18,6 +18,8 @@
 
 - [9. 回文数](https://github.com/shellingfordly/algorithms/tree/master/src/9_isPalindrome)
 
+- 10.正则表达式匹配 [WIP]
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
