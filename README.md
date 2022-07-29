@@ -16,6 +16,8 @@
 
 - [8. 字符串转换整数 (atoi)](https://github.com/shellingfordly/algorithms/tree/master/src/8_atoi)
 
+- [9. 回文数](https://github.com/shellingfordly/algorithms/tree/master/src/9_isPalindrome)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
