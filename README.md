@@ -14,6 +14,8 @@
 
 - [7. 整数反转](https://github.com/shellingfordly/algorithms/tree/master/src/7_reverse)
 
+- [8. 字符串转换整数 (atoi)](https://github.com/shellingfordly/algorithms/tree/master/src/8_atoi)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
