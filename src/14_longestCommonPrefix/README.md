@@ -73,3 +73,23 @@ export function longestCommonPrefix1(strs: string[]): string {
   return prefix;
 }
 ```
+
+### 横向搜索
+
+取两个字符串，找出它们的公共前缀，再用此前缀继续和后面的字符串找公共前缀
+
+```ts
+export function longestCommonPrefix(strs: string[]): string {
+  let prefix = strs[0];
+  for (let i = 1; i < strs.length; i++) {
+    prefix = commonPrefix(prefix, strs[i]);
+    if (!prefix) break;
+  }
+  function commonPrefix(str1: string, str2: string) {
+    let j = 0;
+    while (j < str1.length && str1[j] == str2[j]) j++;
+    return str1.slice(0, j);
+  }
+  return prefix;
+}
+```
