@@ -22,6 +22,12 @@
 
 - [11.盛最多水的容器](/shellingfordly/algorithms/tree/master/src/11_area)
 
+- [12. 整数转罗马数字](/shellingfordly/algorithms/tree/master/src/12_intToRoman)
+
+- [13. 罗马数字转整数](/shellingfordly/algorithms/tree/master/src/13_romanToInt)
+
+- [14. 最长公共前缀](/shellingfordly/algorithms/tree/master/src/14_longestCommonPrefix)
+
 - [131.分割回文串](/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](/shellingfordly/algorithms/tree/master/src/139_wordBreak)
