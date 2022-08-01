@@ -18,7 +18,7 @@
 
 - [9. 回文数](https://github.com/shellingfordly/algorithms/tree/master/src/9_isPalindrome)
 
-- 10.正则表达式匹配 [WIP]
+- [10.正则表达式匹配](https://github.com/shellingfordly/algorithms/tree/master/src/10_isMatch)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
