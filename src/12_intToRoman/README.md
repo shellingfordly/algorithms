@@ -117,3 +117,37 @@ export function intToRoman(num: number): string {
   return result;
 }
 ```
+
+### 贪心
+
+每次都用最大的数来表示，将哈希表从大到小顺序排列，遍历哈希表，遇到比 num 小的第一个数就添加值，并让 num 减掉这个数，直到 num 为 0
+
+```ts
+export function intToRoman(num: number): string {
+  const hash: [number, string][] = [
+    [1000, "M"],
+    [900, "CM"],
+    [500, "D"],
+    [400, "CD"],
+    [100, "C"],
+    [90, "XC"],
+    [50, "L"],
+    [40, "XL"],
+    [10, "X"],
+    [9, "IX"],
+    [5, "V"],
+    [4, "IV"],
+    [1, "I"],
+  ];
+  let result = "";
+  for (const [v, k] of hash) {
+    while (num >= v) {
+      result += k;
+      num -= v;
+    }
+    if (num == 0) break;
+  }
+
+  return result;
+}
+```
