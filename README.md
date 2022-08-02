@@ -28,6 +28,8 @@
 
 - [14. 最长公共前缀](https://github.com/shellingfordly/algorithms/tree/master/src/14_longestCommonPrefix)
 
+- [15. 三数之和](https://github.com/shellingfordly/algorithms/tree/master/src/15_threeSum)
+
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
