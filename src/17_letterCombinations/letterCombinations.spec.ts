@@ -1,0 +1,49 @@
+import { letterCombinations } from "./letterCombinations";
+
+test("letterCombinations", () => {
+  expect(letterCombinations("")).toEqual(expect.arrayContaining([]));
+  expect(letterCombinations("23")).toEqual(
+    expect.arrayContaining([
+      "ad",
+      "ae",
+      "af",
+      "bd",
+      "be",
+      "bf",
+      "cd",
+      "ce",
+      "cf",
+    ])
+  );
+  expect(letterCombinations("235")).toEqual(
+    expect.arrayContaining([
+      "adj",
+      "adk",
+      "adl",
+      "aej",
+      "aek",
+      "ael",
+      "afj",
+      "afk",
+      "afl",
+      "bdj",
+      "bdk",
+      "bdl",
+      "bej",
+      "bek",
+      "bel",
+      "bfj",
+      "bfk",
+      "bfl",
+      "cdj",
+      "cdk",
+      "cdl",
+      "cej",
+      "cek",
+      "cel",
+      "cfj",
+      "cfk",
+      "cfl",
+    ])
+  );
+});
