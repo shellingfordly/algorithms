@@ -35,6 +35,8 @@ nums 中的所有整数 互不相同
 
 此题和[17. 电话号码的字母组合](https://github.com/shellingfordly/algorithms/tree/master/src/17_letterCombinations)十分类似，我们依旧可以用回溯的方式来实现。
 
+[leetcode 题解](https://leetcode.cn/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
+
 ### 回溯
 
 遍历 nums，取第一个数保存到 con 中；将 con 和裁剪掉此数的数组递归处理；取出第一个数添加到 con 中，直到裁剪的数组为空时，得到第一种顺序排列的数组添加的结果数组中。
