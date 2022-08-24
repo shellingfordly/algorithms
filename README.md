@@ -34,6 +34,8 @@
 
 - [17. 电话号码的字母组合](https://github.com/shellingfordly/algorithms/tree/master/src/17_letterCombinations)
 
+- [18. 四数之和](https://github.com/shellingfordly/algorithms/tree/master/src/18_fourSum)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
