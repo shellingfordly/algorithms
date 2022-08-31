@@ -36,7 +36,9 @@
 
 - [18. 四数之和](https://github.com/shellingfordly/algorithms/tree/master/src/18_fourSum)
 
-- [18. 删除链表的第 N 个节点](https://github.com/shellingfordly/algorithms/tree/master/src/19_removeNthFromEnd)
+- [19. 删除链表的第 N 个节点](https://github.com/shellingfordly/algorithms/tree/master/src/19_removeNthFromEnd)
+
+- [20. 有效的括号](https://github.com/shellingfordly/algorithms/tree/master/src/20_isValid)
 
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
