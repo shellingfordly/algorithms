@@ -40,6 +40,8 @@
 
 - [20. 有效的括号](https://github.com/shellingfordly/algorithms/tree/master/src/20_isValid)
 
+- [21. 合并两个有序链表](https://github.com/shellingfordly/algorithms/tree/master/src/21_mergeTwoLists)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
