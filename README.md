@@ -46,6 +46,8 @@
 
 - [23. 合并 K 个升序链表](https://github.com/shellingfordly/algorithms/tree/master/src/23_mergeKLists)
 
+- [24. 两两交换链表中的节点](https://github.com/shellingfordly/algorithms/tree/master/src/24_swapPairs)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
