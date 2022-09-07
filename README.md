@@ -48,6 +48,8 @@
 
 - [24. 两两交换链表中的节点](https://github.com/shellingfordly/algorithms/tree/master/src/24_swapPairs)
 
+- [25. K 个一组翻转链表](https://github.com/shellingfordly/algorithms/tree/master/src/25_reverseKGroup)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
