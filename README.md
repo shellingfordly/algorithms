@@ -56,4 +56,6 @@
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
 
+- [206. 反转链表](https://github.com/shellingfordly/algorithms/tree/master/src/206_reverseList)
+
 - [283.移动零](https://github.com/shellingfordly/algorithms/tree/master/src/283_moveZeroes)
