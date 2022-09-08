@@ -50,6 +50,8 @@
 
 - [25. K 个一组翻转链表](https://github.com/shellingfordly/algorithms/tree/master/src/25_reverseKGroup)
 
+- [26. 删除有序数组中的重复项](https://github.com/shellingfordly/algorithms/tree/master/src/26_removeDuplicates)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
