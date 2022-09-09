@@ -52,6 +52,8 @@
 
 - [26. 删除有序数组中的重复项](https://github.com/shellingfordly/algorithms/tree/master/src/26_removeDuplicates)
 
+- [27. 移除元素](https://github.com/shellingfordly/algorithms/tree/master/src/27_removeElement)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
