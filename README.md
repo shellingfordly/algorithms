@@ -54,6 +54,8 @@
 
 - [27. 移除元素](https://github.com/shellingfordly/algorithms/tree/master/src/27_removeElement)
 
+- [28. 实现 strStr](https://github.com/shellingfordly/algorithms/tree/master/src/28_strStr)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
