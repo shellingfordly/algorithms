@@ -56,6 +56,8 @@
 
 - [28. 实现 strStr](https://github.com/shellingfordly/algorithms/tree/master/src/28_strStr)
 
+- [30. 串联所有单词的子串](https://github.com/shellingfordly/algorithms/tree/master/src/30_findSubstring)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
