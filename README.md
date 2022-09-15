@@ -62,6 +62,8 @@
 
 - [32. 最长有效括号](https://github.com/shellingfordly/algorithms/tree/master/src/32_longestValidParentheses)
 
+- [33. 搜索旋转排序数组](https://github.com/shellingfordly/algorithms/tree/master/src/33_search)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
