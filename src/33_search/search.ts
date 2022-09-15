@@ -44,7 +44,7 @@ export const search1 = function (nums: number[], target: number): number {
 
     if (target == midVal) return mid;
 
-    if (leftVal < midVal) {
+    if (leftVal <= midVal) {
       if (target >= leftVal && target < midVal) {
         right = mid - 1;
       } else {

@@ -41,13 +41,13 @@ nums 中的每个值都 独一无二
 
 ## 解答
 
-- 需要注意：
+**需要注意：**
 
-判断值是否相等时，如果对 left 和 right 端点值进行了判断，那么递归时 **target>leftVal** 和 **target<rightVal** 就不需要再判断了；并且下传 left 和 right 时可以-1，因为已经判断过是否等于 target，因为进入下一次递归避免重复判断。
+1. 判断值是否相等时，如果对 left 和 right 端点值进行了判断，那么递归时 **target>leftVal** 和 **target<rightVal** 就不需要再判断了；并且下传 left 和 right 时可以-1，因为已经判断过是否等于 target，因为进入下一次递归避免重复判断。
 
-循环处理中同理，因为没有先做判断，因此条件中需要判断等于 **target>=leftVal** 和 **target<=rightVal**，退出条件也需要加上等于判断 **left<=right**，否则当 left=right 刚好是 target 时无法得到正确答案；并且因为循环中本来直接调整 left 和 right 的值为 mid-1 还是 mid+1，没有判断端点也正好不用调整 left、right 去-1。
+2. 循环处理中同理，因为没有先做判断，因此条件中需要判断等于 **target>=leftVal**、**target<=rightVal**，以及**leftVal <= midVal**，否则会漏掉端点值；退出条件也需要加上等于判断 **left<=right**，否则当 left=right 刚好是 target 时无法得到正确答案；并且因为循环中本来直接调整 left 和 right 的值为 mid-1 还是 mid+1，没有判断端点也正好不用调整 left、right 去-1。
 
-因此我感觉循环更适合只判断 midVal，否则每次更新 left=mid+1 或者 right=mid-1 时还需要同时调整 left--或者 right--来防止端点值的重复判断。
+3. 因此我感觉循环更适合只判断 midVal，否则每次更新 left=mid+1 或者 right=mid-1 时还需要同时调整 left--或者 right--来防止端点值的重复判断。
 
 ### 递归
 
@@ -97,7 +97,7 @@ const search1 = function (nums, target) {
 
     if (target == midVal) return mid;
 
-    if (leftVal < midVal) {
+    if (leftVal <= midVal) {
       if (target >= leftVal && target < midVal) {
         right = mid - 1;
       } else {
