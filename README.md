@@ -60,6 +60,8 @@
 
 - [31. 下一个排列](https://github.com/shellingfordly/algorithms/tree/master/src/31_nextPermutation)
 
+- [32. 最长有效括号](https://github.com/shellingfordly/algorithms/tree/master/src/32_longestValidParentheses)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
