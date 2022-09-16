@@ -64,6 +64,8 @@
 
 - [33. 搜索旋转排序数组](https://github.com/shellingfordly/algorithms/tree/master/src/33_search)
 
+- [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/shellingfordly/algorithms/tree/master/src/34_searchRange)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
