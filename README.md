@@ -70,6 +70,8 @@
 
 - [36. 有效的数独](https://github.com/shellingfordly/algorithms/tree/master/src/36_isValidSudoku)
 
+- [38. 外观数列](https://github.com/shellingfordly/algorithms/tree/master/src/38_countAndSay)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
