@@ -78,6 +78,8 @@
 
 - [40. 组合总和 II](https://github.com/shellingfordly/algorithms/tree/master/src/40_combinationSum2)
 
+- [41. 缺失的第一个正数](https://github.com/shellingfordly/algorithms/tree/master/src/41_firstMissingPositive)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
