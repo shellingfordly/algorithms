@@ -80,6 +80,8 @@
 
 - [41. 缺失的第一个正数](https://github.com/shellingfordly/algorithms/tree/master/src/41_firstMissingPositive)
 
+- [42. 接雨水](https://github.com/shellingfordly/algorithms/tree/master/src/42_trap)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
