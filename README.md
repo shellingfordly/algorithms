@@ -82,6 +82,8 @@
 
 - [42. 接雨水](https://github.com/shellingfordly/algorithms/tree/master/src/42_trap)
 
+- [43. 字符串相乘(WIP)](https://github.com/shellingfordly/algorithms/tree/master/src/43_multiply)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
