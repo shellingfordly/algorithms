@@ -84,6 +84,8 @@
 
 - [43. 字符串相乘](https://github.com/shellingfordly/algorithms/tree/master/src/43_multiply)
 
+- [44. 通配符匹配(难)](https://github.com/shellingfordly/algorithms/tree/master/src/44_isMatch)
+
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
 - [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
