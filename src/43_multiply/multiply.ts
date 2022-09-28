@@ -30,14 +30,11 @@ export function multiply1(num1: string, num2: string): string {
   let n = num2.length;
   let arr: number[] = Array(m + n).fill(0);
 
-  for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
+  for (let i = m - 1; i >= 0; i--) {
+    for (let j = n - 1; j >= 0; j--) {
       let sum = Number(num1[i]) * Number(num2[j]) + arr[i + j + 1];
-      // console.log("i:", i, num1[i], "j:", j, num2[j]);
-
       arr[i + j] += Math.trunc(sum / 10);
       arr[i + j + 1] = sum % 10;
-      // console.log("arr", arr);
     }
   }
   if (arr[0] === 0) arr.shift();
