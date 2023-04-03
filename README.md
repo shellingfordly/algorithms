@@ -88,7 +88,13 @@
 
 - [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
 
-- [131.分割回文串](https://github.com/shellingfordly/algorithms/tree/master/src/131_splitPartition)
+- [46. 全排列](https://github.com/shellingfordly/algorithms/tree/master/src/46_permute)
+
+- [48. 旋转图像](https://github.com/shellingfordly/algorithms/tree/master/src/48_rotatingImage)
+
+- [49. 字母异位词分组](https://github.com/shellingfordly/algorithms/tree/master/src/49_groupAnagrams)
+
+- [50. pow](https://github.com/shellingfordly/algorithms/tree/master/src/50_pow)
 
 - [139.单词拆分](https://github.com/shellingfordly/algorithms/tree/master/src/139_wordBreak)
 
