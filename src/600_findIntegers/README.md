@@ -66,3 +66,8 @@ export function findIntegers(n: number): number {
     return count
 };
 ```
+
+
+## 方法二
+
+<!-- TODO -->
