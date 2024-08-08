@@ -1,7 +1,7 @@
 import { minimumDifference } from "./minimumDifference"
 
 
-describe("maxVowels", () => {
+describe("minimumDifference", () => {
     it("1", () => {
         expect(minimumDifference([90], 1)).toBe(0);
     });

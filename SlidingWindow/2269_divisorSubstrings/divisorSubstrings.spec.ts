@@ -1,7 +1,7 @@
 import { divisorSubstrings } from "./divisorSubstrings"
 
 
-describe("maxVowels", () => {
+describe("divisorSubstrings", () => {
     it("1", () => {
         expect(divisorSubstrings(20, 2)).toBe(1);
     });
