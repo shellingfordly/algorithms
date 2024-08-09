@@ -12,7 +12,7 @@
 - [x] [2090. 半径为 k 的子数组平均值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2090_getAverages)
 - [x] [2379. 得到 K 个黑块的最少涂色次数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2379_minimumRecolors)
 - [x] [1052. 爱生气的书店老板](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1052_maxSatisfied)
-- [ ] [2841. 几乎唯一子数组的最大和]
+- [x] [2841. 几乎唯一子数组的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2841_maxSum)
 - [ ] [2461. 长度为 K 子数组中的最大和]
 - [ ] [1423. 可获得的最大点数]
 - [ ] [2134. 最少交换次数来组合所有的 1 II]
