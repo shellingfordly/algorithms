@@ -8,10 +8,10 @@
 - [x] [2269. 找到一个数字的 K 美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2269_divisorSubstrings)
 - [x] [1984. 学生分数的最小差值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1984_minimumDifference)
 - [x] [643. 子数组最大平均数 I](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/643_findMaxAverage)
-- [x] [1343. 大小为 K 且平均值大于等于阈值的子数组数目]
+- [x] [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1343_numOfSubarrays)
 - [x] [2090. 半径为 k 的子数组平均值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2090_getAverages)
-- [ ] [2379. 得到 K 个黑块的最少涂色次数]
-- [ ] [1052. 爱生气的书店老板]
+- [x] [2379. 得到 K 个黑块的最少涂色次数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2379_minimumRecolors)
+- [x] [1052. 爱生气的书店老板](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1052_maxSatisfied)
 - [ ] [2841. 几乎唯一子数组的最大和]
 - [ ] [2461. 长度为 K 子数组中的最大和]
 - [ ] [1423. 可获得的最大点数]
