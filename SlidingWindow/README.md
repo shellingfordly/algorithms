@@ -14,7 +14,7 @@
 - [x] [1052. 爱生气的书店老板](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1052_maxSatisfied)
 - [x] [2841. 几乎唯一子数组的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2841_maxSum)
 - [x] [2461. 长度为 K 子数组中的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2461_maximumSubarraySum)
-- [ ] [1423. 可获得的最大点数]
+- [x] [1423. 可获得的最大点数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1423_maxScore)
 - [ ] [2134. 最少交换次数来组合所有的 1 II]
 - [ ] [2653. 滑动子数组的美丽值]
 - [ ] [567. 字符串的排列]
