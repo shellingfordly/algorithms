@@ -34,3 +34,49 @@ export function minSwaps(nums: number[]): number {
 
     return res
 };
+
+
+export function minSwaps1(nums: number[]): number {
+    let n = nums.length;
+    let cnt = 0; // 1的个数
+    for (let i = 0; i < n; i++) {
+        cnt += nums[i]
+    }
+
+    if (cnt == 0) {
+        return 0;
+    }
+
+    let cur = 0; // 0的个数
+    for (let i = 0; i < cnt; ++i) {
+        cur += (1 - nums[i]);
+    }
+    let ans = cur;
+    for (let i = 0; i < n; ++i) {
+        // 
+        if (nums[i] == 0) {
+            --cur;
+        }
+        if (nums[(i + cnt) % n] == 0) {
+            ++cur;
+        }
+        ans = Math.min(ans, cur);
+    }
+    return ans;
+}
+
+export function minSwaps2(nums: number[]): number {
+    let n = nums.length;
+    let cnt = nums.reduce((p, n) => p + n, 0); // 1的个数
+    let sum = 0; // 1个数内总和
+    for (let i = 0; i < cnt; i++) {
+        sum += nums[i]
+    }
+    let mx = sum;
+    for (let l = 0, r = cnt % n; l < n; ++l, r = (++r) % n) {
+        sum = sum - nums[l] + nums[r];
+        mx = Math.max(mx, sum);
+        if (mx == cnt) return 0;
+    }
+    return cnt - mx;
+}
