@@ -15,8 +15,8 @@
 - [x] [2841. 几乎唯一子数组的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2841_maxSum)
 - [x] [2461. 长度为 K 子数组中的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2461_maximumSubarraySum)
 - [x] [1423. 可获得的最大点数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1423_maxScore)
-- [ ] [2134. 最少交换次数来组合所有的 1 II]
-- [ ] [2653. 滑动子数组的美丽值]
+- [x] [2134. 最少交换次数来组合所有的 1 II](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2134_minSwaps)
+- [x] [2653. 滑动子数组的美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2653_getSubarrayBeauty)
 - [ ] [567. 字符串的排列]
 - [ ] [438. 找到字符串中所有字母异位词]
 - [ ] [2156. 查找给定哈希值的子串]
