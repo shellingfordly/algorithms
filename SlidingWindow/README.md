@@ -19,7 +19,7 @@
 - [x] [2653. 滑动子数组的美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2653_getSubarrayBeauty)
 - [x] [567. 字符串的排列](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/567_checkInclusion)
 - [x] [438. 找到字符串中所有字母异位词](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/438_findAnagrams)
-- [ ] [2156. 查找给定哈希值的子串]
+- [ ] [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
 - [ ] [2953. 统计完全子字符串]
 - [ ] [346. 数据流中的移动平均值 (会员题)]
 - [ ] [1100. 长度为 K 的无重复字符子串 (会员题)]
