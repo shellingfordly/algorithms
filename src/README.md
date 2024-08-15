@@ -4,7 +4,8 @@
 
 - [2.两数相加](https://github.com/shellingfordly/algorithms/tree/master/src/2_addTwoNumbers)
 
-- [3.无重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/src/3_lengthOfLongestSubstring)
+- [3.无重复字符的最长子串 1](https://github.com/shellingfordly/algorithms/tree/master/src/3_lengthOfLongestSubstring)
+- [3. 无重复字符的最长子串 2](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/3_lengthOfLongestSubstring)
 
 - [4. 寻找两个正序数组的中位数](https://github.com/shellingfordly/algorithms/tree/master/src/4_findMedianSortedArrays)
 
@@ -101,3 +102,37 @@
 - [206. 反转链表](https://github.com/shellingfordly/algorithms/tree/master/src/206_reverseList)
 
 - [283.移动零](https://github.com/shellingfordly/algorithms/tree/master/src/283_moveZeroes)
+
+- [438. 找到字符串中所有字母异位词](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/438_findAnagrams)
+
+- [567. 字符串的排列](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/567_checkInclusion)
+
+- [643. 子数组最大平均数 I](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/643_findMaxAverage)
+
+- [1052. 爱生气的书店老板](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1052_maxSatisfied)
+
+- [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1343_numOfSubarrays)
+
+- [1423. 可获得的最大点数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1423_maxScore)
+
+- [1456. 定长子串中元音的最大数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1456_maxVowels)
+
+- [1984. 学生分数的最小差值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1984_minimumDifference)
+
+- [2090. 半径为 k 的子数组平均值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2090_getAverages)
+
+- [2134. 最少交换次数来组合所有的 1 II](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2134_minSwaps)
+
+- [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
+
+- [2269. 找到一个数字的 K 美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2269_divisorSubstrings)
+
+- [2379. 得到 K 个黑块的最少涂色次数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2379_minimumRecolors)
+
+- [2461. 长度为 K 子数组中的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2461_maximumSubarraySum)
+
+- [2653. 滑动子数组的美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2653_getSubarrayBeauty)
+
+- [2841. 几乎唯一子数组的最大和](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2841_maxSum)
+
+- [2953. 统计完全子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2953_countCompleteSubstrings)
