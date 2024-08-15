@@ -20,7 +20,7 @@
 - [x] [567. 字符串的排列](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/567_checkInclusion)
 - [x] [438. 找到字符串中所有字母异位词](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/438_findAnagrams)
 - [ ] [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
-- [ ] [2953. 统计完全子字符串]
+- [x] [2953. 统计完全子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2953_countCompleteSubstrings)
 - [ ] [346. 数据流中的移动平均值 (会员题)]
 - [ ] [1100. 长度为 K 的无重复字符子串 (会员题)]
 - [ ] [1852. 每个子数组的数字种类数 (会员题)]
@@ -29,7 +29,7 @@
 
 ## 不定长滑动窗口（求最长/最大）
 
-- [ ] [3. 无重复字符的最长子串]
+- [x] [3. 无重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/3_lengthOfLongestSubstring)
 - [ ] [1493. 删掉一个元素以后全为 1 的最长子数组]
 - [ ] [2730. 找到最长的半重复子字符串]
 - [ ] [904. 水果成篮]
