@@ -31,7 +31,7 @@
 
 - [x] [3. 无重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/3_lengthOfLongestSubstring)
 - [x] [1493. 删掉一个元素以后全为 1 的最长子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1493_longestSubarray)
-- [ ] [2730. 找到最长的半重复子字符串]
+- [x] [2730. 找到最长的半重复子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2730_longestSemiRepetitiveSubstring)
 - [ ] [904. 水果成篮]
 - [ ] [1695. 删除子数组的最大得分]
 - [ ] [2958. 最多 K 个重复元素的最长子数组]
