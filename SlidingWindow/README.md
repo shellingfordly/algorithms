@@ -34,7 +34,7 @@
 - [x] [2730. 找到最长的半重复子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2730_longestSemiRepetitiveSubstring)
 - [x] [904. 水果成篮](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/904_totalFruit)
 - [x] [1695. 删除子数组的最大得分](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1695_maximumUniqueSubarray)
-- [ ] [2958. 最多 K 个重复元素的最长子数组]
+- [x] [2958. 最多 K 个重复元素的最长子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2958_maxSubarrayLength)
 - [ ] [2024. 考试的最大困扰度]
 - [ ] [1004. 最大连续 1 的个数 III]
 - [ ] [1438. 绝对差不超过限制的最长连续子数组]
