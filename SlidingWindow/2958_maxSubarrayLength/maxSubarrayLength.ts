@@ -24,3 +24,24 @@ export function maxSubarrayLength(nums: number[], k: number): number {
 
     return res
 };
+
+
+export function maxSubarrayLength1(nums: number[], k: number): number {
+    let countMap: Record<number, number> = {}
+    let left = 0
+    let res = 0
+
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        countMap[num] = (countMap[num] || 0) + 1
+
+        while (countMap[num] > k) {
+            countMap[nums[left]] -= 1
+            left++
+        }
+        res = Math.max(res, i - left + 1)
+    }
+
+    return res
+};
+

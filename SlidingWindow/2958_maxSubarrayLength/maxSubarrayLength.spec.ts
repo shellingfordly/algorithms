@@ -1,4 +1,4 @@
-import { maxSubarrayLength } from './maxSubarrayLength'
+import { maxSubarrayLength } from "./maxSubarrayLength"
 
 describe("maxSubarrayLength", () => {
     it("1", () => {

@@ -42,6 +42,66 @@
 
 提示：
 
-- 1 <= nums.length <= 105
-- 1 <= nums[i] <= 109
+- 1 <= nums.length <= 10^5
+- 1 <= nums[i] <= 10^9
 - 1 <= k <= nums.length
+
+## 方法一
+
+### 思路
+
+用 map 记录数字出现的次数，如果 count >= k，则让 left 从 0 开始滑动，将 map 中的计数减 1，直到 count 不再大于 k
+
+### 代码
+
+```ts
+function maxSubarrayLength(nums: number[], k: number): number {
+  let countMap = new Map<number, number>();
+  let left = 0;
+  let res = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i];
+    let count = countMap.get(num) || 0;
+
+    if (count == k) {
+      res = Math.max(res, i - left);
+      while (count >= k) {
+        const old_num = nums[left];
+        const old_count = countMap.get(old_num) || 0;
+        countMap.set(old_num, old_count - 1);
+        left++;
+        count = countMap.get(num)!;
+      }
+    }
+    countMap.set(num, count + 1);
+  }
+
+  res = Math.max(res, nums.length - left);
+
+  return res;
+}
+```
+
+改用对象记录次数，简化代码
+
+```ts
+function maxSubarrayLength1(nums: number[], k: number): number {
+  let countMap: Record<number, number> = {};
+  let left = 0;
+  let res = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i];
+    countMap[num] = (countMap[num] || 0) + 1;
+
+    while (countMap[num] > k) {
+      countMap[nums[left]] -= 1;
+      left++;
+    }
+    res = Math.max(res, i - left + 1);
+  }
+
+  return res;
+}
+```
