@@ -30,6 +30,8 @@
 
 记录 0 的个数，当 0 的个数大于 k 时，滑动窗口移动 left 直到 0 的个数小于 k，继续遍历，每次都取与 i - left + 1 取最大值
 
+![alt text](image-2.png)
+
 ```ts
 function longestOnes(nums: number[], k: number): number {
   let left = 0,
@@ -51,6 +53,8 @@ function longestOnes(nums: number[], k: number): number {
 
 使用数组记录 0 出现的下标，当数组长度大于 k 时，left 移动到数组第一个下标的后一位
 
+![alt text](image-1.png)
+
 ```ts
 function longestOnes1(nums: number[], k: number): number {
   let left = 0,
@@ -60,6 +64,29 @@ function longestOnes1(nums: number[], k: number): number {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] == 0) arr.push(i);
     if (arr.length > k) left = (arr.shift() || 0) + 1;
+    res = Math.max(res, i - left + 1);
+  }
+  return res;
+}
+```
+
+用 j 直接取值优化 pop，然而并没有卵用，反而慢了
+
+![alt text](image.png)
+
+```ts
+function longestOnes(nums: number[], k: number): number {
+  let left = 0,
+    res = 0;
+  let arr: number[] = [];
+  let j = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] == 0) arr.push(i);
+    if (arr.length - j > k) {
+      left = (arr[j] || 0) + 1;
+      ++j;
+    }
     res = Math.max(res, i - left + 1);
   }
   return res;

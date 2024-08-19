@@ -15,10 +15,14 @@ export function longestOnes(nums: number[], k: number): number {
 export function longestOnes1(nums: number[], k: number): number {
     let left = 0, res = 0
     let arr: number[] = []
+    let j = 0
 
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] == 0) arr.push(i)
-        if (arr.length > k) left = (arr.shift() || 0) + 1
+        if (arr.length - j > k) {
+            left = (arr[j] || 0) + 1
+            ++j
+        }
         res = Math.max(res, i - left + 1)
     }
     return res
