@@ -38,7 +38,7 @@
 - [x] [2024. 考试的最大困扰度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2024_maxConsecutiveAnswers)
 - [x] [1004. 最大连续 1 的个数 III](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1004_longestOnes)
 - [ ] [1438. 绝对差不超过限制的最长连续子数组(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
-- [ ] [2401. 最长优雅子数组]
+- [x] [2401. 最长优雅子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2401_longestNiceSubarray)
 - [ ] [1658. 将 x 减到 0 的最小操作数]
 - [ ] [1838. 最高频元素的频数]
 - [ ] [2516. 每种字符至少取 K 个]
