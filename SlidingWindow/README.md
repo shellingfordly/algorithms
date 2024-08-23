@@ -40,7 +40,7 @@
 - [ ] [1438. 绝对差不超过限制的最长连续子数组(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
 - [x] [2401. 最长优雅子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2401_longestNiceSubarray)
 - [x] [1658. 将 x 减到 0 的最小操作数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1658_minOperations)
-- [ ] [1838. 最高频元素的频数]
+- [x] [1838. 最高频元素的频数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1838_maxFrequency)
 - [ ] [2516. 每种字符至少取 K 个]
 - [ ] [2831. 找出最长等值子数组]
 - [ ] [2106. 摘水果]
