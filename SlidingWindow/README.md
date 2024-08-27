@@ -45,7 +45,7 @@
 - [x] [2831. 找出最长等值子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2831_longestEqualSubarray)
 - [ ] [2106. 摘水果]
 - [ ] [1610. 可见点的最大数目]
-- [ ] [2781. 最长合法子字符串的长度]
+- [x] [2781. 最长合法子字符串的长度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2781_longestValidSubstring)
 - [ ] [2968. 执行操作使频率分数最大]
 - [ ] [395. 至少有 K 个重复字符的最长子串]
 - [ ] [1763. 最长的美好子字符串]
