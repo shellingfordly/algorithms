@@ -43,8 +43,8 @@
 - [x] [1838. 最高频元素的频数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1838_maxFrequency)
 - [x] [2516. 每种字符至少取 K 个](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2516_takeCharacters)
 - [x] [2831. 找出最长等值子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2831_longestEqualSubarray)
-- [ ] [2106. 摘水果]
-- [ ] [1610. 可见点的最大数目]
+- [ ] [2106. 摘水果(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
+- [ ] [1610. 可见点的最大数目(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
 - [x] [2781. 最长合法子字符串的长度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2781_longestValidSubstring)
 - [ ] [2968. 执行操作使频率分数最大]
 - [ ] [395. 至少有 K 个重复字符的最长子串]
