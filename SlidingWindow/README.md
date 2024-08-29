@@ -46,7 +46,7 @@
 - [ ] [2106. 摘水果(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
 - [ ] [1610. 可见点的最大数目(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
 - [x] [2781. 最长合法子字符串的长度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2781_longestValidSubstring)
-- [ ] [2968. 执行操作使频率分数最大]
+- [ ] [2968. 执行操作使频率分数最大(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
 - [ ] [395. 至少有 K 个重复字符的最长子串]
 - [ ] [1763. 最长的美好子字符串]
 - [ ] [159. 至多包含两个不同字符的最长子串 (会员题)]
@@ -81,3 +81,11 @@
 - [ ] [2444. 统计定界子数组的数目]
 - [ ] [992. K 个不同整数的子数组]
 - [ ] [1989. 捉迷藏中可捕获的最大人数 (会员题)]
+
+## 存疑
+
+- [ ] [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
+- [ ] [1438. 绝对差不超过限制的最长连续子数组(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
+- [ ] [2106. 摘水果(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
+- [ ] [1610. 可见点的最大数目(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
+- [ ] [2968. 执行操作使频率分数最大(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
