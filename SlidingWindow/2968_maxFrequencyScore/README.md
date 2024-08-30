@@ -93,6 +93,8 @@ function maxFrequencyScore(nums: number[], k: number): number {
 
 ## 方法二：滑动窗口
 
+### 思路
+
 一次滑动窗口[灵茶山艾府 题解](https://leetcode.cn/problems/apply-operations-to-maximize-frequency-score/solutions/2569301/hua-dong-chuang-kou-zhong-wei-shu-tan-xi-nuvr/)
 
 当窗口内有偶数个数时，比如 [1, 2]，将数组变成 [1, 1] 或者 [2, 2] 都只需要 1 次操作
@@ -113,6 +115,8 @@ function maxFrequencyScore(nums: number[], k: number): number {
 也就可以知道，当我们进行滑动窗口时，右边进入的数一定是 +nums[right]，此时原本的中位数向左移动，也就是需要 -nums[(left + right) / 2]；
 
 而滑出窗口时，左边出去的原本是减掉的(-nums[left])，就应该加回去 +nums[left]，此时原来的中位数也是向左移，新的中位数是原来处于右边的数，因此需要减去 -nums[(left + right + 1) / 2]
+
+### 代码
 
 ```ts
 function maxFrequencyScore(nums: number[], k: number): number {

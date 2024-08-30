@@ -19,7 +19,7 @@
 - [x] [2653. 滑动子数组的美丽值](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2653_getSubarrayBeauty)
 - [x] [567. 字符串的排列](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/567_checkInclusion)
 - [x] [438. 找到字符串中所有字母异位词](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/438_findAnagrams)
-- [ ] [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
+- [ ] [2156. 查找给定哈希值的子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
 - [x] [2953. 统计完全子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2953_countCompleteSubstrings)
 - [ ] [346. 数据流中的移动平均值 (会员题)]
 - [ ] [1100. 长度为 K 的无重复字符子串 (会员题)]
@@ -37,18 +37,18 @@
 - [x] [2958. 最多 K 个重复元素的最长子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2958_maxSubarrayLength)
 - [x] [2024. 考试的最大困扰度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2024_maxConsecutiveAnswers)
 - [x] [1004. 最大连续 1 的个数 III](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1004_longestOnes)
-- [ ] [1438. 绝对差不超过限制的最长连续子数组(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
+- [ ] [1438. 绝对差不超过限制的最长连续子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
 - [x] [2401. 最长优雅子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2401_longestNiceSubarray)
 - [x] [1658. 将 x 减到 0 的最小操作数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1658_minOperations)
 - [x] [1838. 最高频元素的频数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1838_maxFrequency)
 - [x] [2516. 每种字符至少取 K 个](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2516_takeCharacters)
 - [x] [2831. 找出最长等值子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2831_longestEqualSubarray)
-- [ ] [2106. 摘水果(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
-- [ ] [1610. 可见点的最大数目(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
+- [ ] [2106. 摘水果](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
+- [ ] [1610. 可见点的最大数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
 - [x] [2781. 最长合法子字符串的长度](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2781_longestValidSubstring)
-- [ ] [2968. 执行操作使频率分数最大(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
-- [ ] [395. 至少有 K 个重复字符的最长子串]
-- [ ] [1763. 最长的美好子字符串]
+- [ ] [2968. 执行操作使频率分数最大](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
+- [ ] [395. 至少有 K 个重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/395_longestSubstring)
+- [ ] [1763. 最长的美好子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1763_longestNiceSubstring)
 - [ ] [159. 至多包含两个不同字符的最长子串 (会员题)]
 - [ ] [340. 至多包含 K 个不同字符的最长子串 (会员题)]
 
@@ -84,8 +84,10 @@
 
 ## 存疑
 
-- [ ] [2156. 查找给定哈希值的子串(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
-- [ ] [1438. 绝对差不超过限制的最长连续子数组(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
-- [ ] [2106. 摘水果(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
-- [ ] [1610. 可见点的最大数目(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
-- [ ] [2968. 执行操作使频率分数最大(WIP)](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
+- [ ] [2156. 查找给定哈希值的子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2156_subStrHash)
+- [ ] [1438. 绝对差不超过限制的最长连续子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1438_longestSubarray)
+- [ ] [2106. 摘水果](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2106_maxTotalFruits)
+- [ ] [1610. 可见点的最大数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1610_visiblePoints)
+- [ ] [2968. 执行操作使频率分数最大](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
+- [ ] [395. 至少有 K 个重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/395_longestSubstring)
+- [ ] [1763. 最长的美好子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1763_longestNiceSubstring)
