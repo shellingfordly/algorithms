@@ -56,7 +56,7 @@
 
 - [x] [209. 长度最小的子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/209_minSubArrayLen)
 - [x] [1234. 替换子串得到平衡字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1234_balancedString)
-- [ ] [1574. 删除最短的子数组使剩余数组有序]
+- [x] [1574. 删除最短的子数组使剩余数组有序](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1574_findLengthOfShortestSubarray)
 - [ ] [76. 最小覆盖子串]
 - [ ] [面试题 17.18. 最短超串]
 
