@@ -63,7 +63,7 @@
 ## 不定长滑动窗口（求子数组个数）
 
 - [x] [2799. 统计完全子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2799_countCompleteSubarrays)
-- [ ] [713. 乘积小于 K 的子数组]
+- [x] [713. 乘积小于 K 的子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/713_numSubarrayProductLessThanK)
 - [ ] [1358. 包含所有三种字符的子字符串数目]
 - [ ] [2962. 统计最大元素出现至少 K 次的子数组]
 - [ ] [2302. 统计得分小于 K 的子数组数目]
