@@ -64,7 +64,7 @@
 
 - [x] [2799. 统计完全子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2799_countCompleteSubarrays)
 - [x] [713. 乘积小于 K 的子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/713_numSubarrayProductLessThanK)
-- [ ] [1358. 包含所有三种字符的子字符串数目]
+- [x] [1358. 包含所有三种字符的子字符串数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1358_numberOfSubstrings)
 - [ ] [2962. 统计最大元素出现至少 K 次的子数组]
 - [ ] [2302. 统计得分小于 K 的子数组数目]
 - [ ] [2537. 统计好子数组的数目]
