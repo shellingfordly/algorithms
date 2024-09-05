@@ -67,7 +67,7 @@
 - [x] [1358. 包含所有三种字符的子字符串数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1358_numberOfSubstrings)
 - [x] [2962. 统计最大元素出现至少 K 次的子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2962_countSubarrays)
 - [x] [2302. 统计得分小于 K 的子数组数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2302_countSubarrays)
-- [ ] [2537. 统计好子数组的数目]
+- [x] [2537. 统计好子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2537_countGood)
 - [ ] [2762. 不间断子数组]
 - [ ] [2972. 统计移除递增子数组的数目 II]
 - [ ] [2743. 计算没有重复字符的子字符串数量 (会员题)]
