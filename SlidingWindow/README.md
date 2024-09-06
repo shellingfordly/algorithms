@@ -69,7 +69,7 @@
 - [x] [2302. 统计得分小于 K 的子数组数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2302_countSubarrays)
 - [x] [2537. 统计好子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2537_countGood)
 - [x] [2762. 不间断子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2762_continuousSubarrays)
-- [ ] [2972. 统计移除递增子数组的数目 II]
+- [x] [2972. 统计移除递增子数组的数目 II](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2972_incremovableSubarrayCount)
 - [ ] [2743. 计算没有重复字符的子字符串数量 (会员题)]
 
 ## 多指针滑动窗口
