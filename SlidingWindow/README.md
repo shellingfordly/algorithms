@@ -74,7 +74,7 @@
 
 ## 多指针滑动窗口
 
-- [ ] [930. 和相同的二元子数组]
+- [x] [930. 和相同的二元子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/930_numSubarraysWithSum)
 - [ ] [1248. 统计「优美子数组」]
 - [ ] [2563. 统计公平数对的数目]
 - [ ] [1712. 将数组分成三个子数组的方案数]
