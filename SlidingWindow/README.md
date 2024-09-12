@@ -76,7 +76,7 @@
 
 - [x] [930. 和相同的二元子数组](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/930_numSubarraysWithSum)
 - [x] [1248. 统计「优美子数组」](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1248_numberOfSubarrays)
-- [ ] [2563. 统计公平数对的数目]
+- [ ] [2563. 统计公平数对的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2563_countFairPairs)
 - [ ] [1712. 将数组分成三个子数组的方案数]
 - [ ] [2444. 统计定界子数组的数目]
 - [ ] [992. K 个不同整数的子数组]
@@ -91,3 +91,4 @@
 - [ ] [2968. 执行操作使频率分数最大](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2968_maxFrequencyScore)
 - [ ] [395. 至少有 K 个重复字符的最长子串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/395_longestSubstring)
 - [ ] [1763. 最长的美好子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1763_longestNiceSubstring)
+- [ ] [2563. 统计公平数对的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2563_countFairPairs)
