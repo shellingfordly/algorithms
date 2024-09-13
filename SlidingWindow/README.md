@@ -78,7 +78,7 @@
 - [x] [1248. 统计「优美子数组」](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1248_numberOfSubarrays)
 - [ ] [2563. 统计公平数对的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2563_countFairPairs)
 - [ ] [1712. 将数组分成三个子数组的方案数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1712_waysToSplit)
-- [ ] [2444. 统计定界子数组的数目]
+- [ ] [2444. 统计定界子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2444_countSubarrays)
 - [ ] [992. K 个不同整数的子数组]
 - [ ] [1989. 捉迷藏中可捕获的最大人数 (会员题)]
 
@@ -93,3 +93,4 @@
 - [ ] [1763. 最长的美好子字符串](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1763_longestNiceSubstring)
 - [ ] [2563. 统计公平数对的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2563_countFairPairs)
 - [ ] [1712. 将数组分成三个子数组的方案数](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/1712_waysToSplit)
+- [ ] [2444. 统计定界子数组的数目](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/2444_countSubarrays)
