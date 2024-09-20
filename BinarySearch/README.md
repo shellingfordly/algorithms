@@ -6,7 +6,7 @@
 - [x] [35. 搜索插入位置](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/35_searchInsert)
 - [x] [704. 二分查找](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/704_search)
 - [x] [744. 寻找比目标字母大的最小字母](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/744_nextGreatestLetter)
-- [ ] [2529. 正整数和负整数的最大计数]
+- [x] [2529. 正整数和负整数的最大计数](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2529_maximumCount)
 - [ ] [1385. 两个数组间的距离值]
 - [ ] [2300. 咒语和药水的成功对数]
 - [ ] [2389. 和有限的最长子序列]
