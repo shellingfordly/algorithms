@@ -93,3 +93,63 @@ function successfulPairs1(
   return pairs;
 }
 ```
+
+简化一下写法
+
+```ts
+function successfulPairs(
+  spells: number[],
+  potions: number[],
+  success: number
+): number[] {
+  potions = potions.sort((a, b) => a - b);
+
+  function search(t: number) {
+    let left = 0,
+      right = potions.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (t * potions[mid] >= success) right = mid - 1;
+      else left = mid + 1;
+    }
+    return left;
+  }
+
+  return spells.map((v) => potions.length - search(v));
+}
+```
+
+## 方法二：优化
+
+\>\> 右移操作，相当于除以 2，即 (right - left) / 2。右移一位在二进制中意味着将数值除以 2，并向下取整。
+
+left + ((right - left) >> 1) 是一种计算中间索引的方式，这样写的目的是为了避免在计算 mid 时直接使用 (left + right) / 2，防止出现整数溢出问题。
+
+- 避免整数溢出（尽管在 JavaScript 中这个问题不常见）。
+- 更高效：右移操作比除法更快，因为右移在硬件层面是非常高效的位运算。
+
+```ts
+function successfulPairs3(
+  spells: number[],
+  potions: number[],
+  success: number
+): number[] {
+  function lowerBound(nums: number[], target: number) {
+    let left = -1,
+      right = nums.length;
+    while (left + 1 < right) {
+      const mid = left + ((right - left) >> 1);
+      if (nums[mid] < target) {
+        left = mid;
+      } else {
+        right = mid;
+      }
+    }
+    return right;
+  }
+
+  const m = potions.length;
+  potions.sort((a, b) => a - b);
+  return spells.map((x) => m - lowerBound(potions, success / x));
+}
+```
