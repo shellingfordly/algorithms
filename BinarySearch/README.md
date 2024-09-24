@@ -4,6 +4,7 @@
 
 - [x] [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/34_searchRange)
 - [x] [35. 搜索插入位置](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/35_searchInsert)
+- [x] [69. x 的平方根](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/69_mySqrt)
 - [x] [704. 二分查找](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/704_search)
 - [x] [744. 寻找比目标字母大的最小字母](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/744_nextGreatestLetter)
 - [x] [2529. 正整数和负整数的最大计数](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2529_maximumCount)
