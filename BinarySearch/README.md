@@ -10,7 +10,7 @@
 - [x] [2529. 正整数和负整数的最大计数](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2529_maximumCount)
 - [x] [1385. 两个数组间的距离值](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/1385_findTheDistanceValue)
 - [x] [2300. 咒语和药水的成功对数](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2300_successfulPairs)
-- [ ] [2389. 和有限的最长子序列]
+- [x] [2389. 和有限的最长子序列](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2389_answerQueries)
 - [ ] [1170. 比较字符串最小字母出现频次]
 - [ ] [2080. 区间内查询数字的频率]
 - [ ] [2563. 统计公平数对的数目]
