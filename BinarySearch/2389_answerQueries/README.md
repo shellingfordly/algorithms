@@ -65,7 +65,7 @@ function answerQueries(nums: number[], queries: number[]): number[] {
 再对 arr 数组进行二分查找，找到全部 <= queries[i] 的数，left 即是全部个数
 
 ```ts
-function answerQueries1(nums: number[], queries: number[]): number[] {
+function answerQueries(nums: number[], queries: number[]): number[] {
   nums = nums.sort((a, b) => a - b);
   const arr: number[] = [];
   let sum = 0;
@@ -79,6 +79,29 @@ function answerQueries1(nums: number[], queries: number[]): number[] {
     while (left <= right) {
       const mid = left + ((right - left) >> 1);
       if (arr[mid] <= query) left = mid + 1;
+      else right = mid - 1;
+    }
+    return left;
+  }
+  return queries.map((v) => search(v));
+}
+```
+
+优化累加循环
+
+```ts
+function answerQueries(nums: number[], queries: number[]): number[] {
+  nums = nums.sort((a, b) => a - b);
+  for (let i = 1; i < nums.length; i++) {
+    nums[i] += nums[i - 1];
+  }
+
+  function search(query: number) {
+    let left = 0,
+      right = nums.length - 1;
+    while (left <= right) {
+      const mid = left + ((right - left) >> 1);
+      if (nums[mid] <= query) left = mid + 1;
       else right = mid - 1;
     }
     return left;
