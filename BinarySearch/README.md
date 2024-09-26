@@ -11,7 +11,7 @@
 - [x] [1385. 两个数组间的距离值](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/1385_findTheDistanceValue)
 - [x] [2300. 咒语和药水的成功对数](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2300_successfulPairs)
 - [x] [2389. 和有限的最长子序列](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/2389_answerQueries)
-- [ ] [1170. 比较字符串最小字母出现频次]
+- [x] [1170. 比较字符串最小字母出现频次](https://github.com/shellingfordly/algorithms/tree/master/BinarySearch/1170_numSmallerByFrequency)
 - [ ] [2080. 区间内查询数字的频率]
 - [ ] [2563. 统计公平数对的数目]
 - [ ] [2856. 删除数对后的最小数组长度]
