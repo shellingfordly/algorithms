@@ -101,7 +101,11 @@
 
 - [206. 反转链表](https://github.com/shellingfordly/algorithms/tree/master/src/206_reverseList)
 
+- [268. 丢失的数字](https://github.com/shellingfordly/algorithms/tree/master/src/268_missingNumber)
+
 - [283.移动零](https://github.com/shellingfordly/algorithms/tree/master/src/283_moveZeroes)
+
+- [349. 两个数组的交集](https://github.com/shellingfordly/algorithms/tree/master/src/349_intersection)
 
 - [438. 找到字符串中所有字母异位词](https://github.com/shellingfordly/algorithms/tree/master/SlidingWindow/438_findAnagrams)
 
